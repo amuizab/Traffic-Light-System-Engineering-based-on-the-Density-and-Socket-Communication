@@ -1,0 +1,157 @@
+<additionals>
+
+    	<inductionLoop id="A11" lane="A1_0" pos="-85" freq="500" file="1502.out.xml"/>
+    
+	<inductionLoop id="B11" lane="B1_0" pos="-95" freq="500" file="1502.out.xml"/>
+    	<inductionLoop id="B12" lane="B1_0" pos="-190" freq="500" file="1502.out.xml"/>
+    	<inductionLoop id="B13" lane="B1_0" pos="-290" freq="500" file="1502.out.xml"/>
+	<inductionLoop id="B14" lane="B1_1" pos="-95" freq="500" file="1502.out.xml"/>
+    	<inductionLoop id="B15" lane="B1_1" pos="-190" freq="500" file="1502.out.xml"/>
+    	<inductionLoop id="B16" lane="B1_1" pos="-290" freq="500" file="1502.out.xml"/>
+	
+	<inductionLoop id="C11" lane="C1_0" pos="-95" freq="500" file="1502.out.xml"/>
+    	<inductionLoop id="C12" lane="C1_0" pos="-190" freq="500" file="1502.out.xml"/>
+    	<inductionLoop id="C13" lane="C1_0" pos="-290" freq="500" file="1502.out.xml"/>
+	
+	<inductionLoop id="D11" lane="D1_0" pos="-95" freq="500" file="1502.out.xml"/>
+     	<inductionLoop id="D12" lane="D1_0" pos="-190" freq="500" file="1502.out.xml"/>
+     	<inductionLoop id="D13" lane="D1_0" pos="-290" freq="500" file="1502.out.xml"/>
+    	<inductionLoop id="D14" lane="D1_1" pos="-95" freq="500" file="1502.out.xml"/>
+     	<inductionLoop id="D15" lane="D1_1" pos="-190" freq="500" file="1502.out.xml"/>
+     	<inductionLoop id="D16" lane="D1_1" pos="-290" freq="500" file="1502.out.xml"/>
+	
+	<inductionLoop id="D21" lane="D2_0" pos="-95" freq="500" file="1502.out.xml"/>
+     	<inductionLoop id="D22" lane="D2_0" pos="-190" freq="500" file="1502.out.xml"/>
+     	<inductionLoop id="D23" lane="D2_0" pos="-290" freq="500" file="1502.out.xml"/>
+	<inductionLoop id="D24" lane="D2_1" pos="-95" freq="500" file="1502.out.xml"/>
+     	<inductionLoop id="D25" lane="D2_1" pos="-190" freq="500" file="1502.out.xml"/>
+     	<inductionLoop id="D26" lane="D2_1" pos="-290" freq="500" file="1502.out.xml"/>
+	
+	<inductionLoop id="E11" lane="E1_0" pos="-95" freq="500" file="1502.out.xml"/>
+    	<inductionLoop id="E12" lane="E1_0" pos="-190" freq="500" file="1502.out.xml"/>
+    	<inductionLoop id="E13" lane="E1_0" pos="-290" freq="500" file="1502.out.xml"/>
+    	
+	<inductionLoop id="F11" lane="F1_0" pos="-95" freq="500" file="1502.out.xml"/>
+    	<inductionLoop id="F12" lane="F1_0" pos="-190" freq="500" file="1502.out.xml"/>
+    	<inductionLoop id="F13" lane="F1_0" pos="-290" freq="500" file="1502.out.xml"/>
+	<inductionLoop id="F14" lane="F1_1" pos="-95" freq="500" file="1502.out.xml"/>
+    	<inductionLoop id="F15" lane="F1_1" pos="-190" freq="500" file="1502.out.xml"/>
+    	<inductionLoop id="F16" lane="F1_1" pos="-290" freq="500" file="1502.out.xml"/>
+
+    	<inductionLoop id="G11" lane="G1_0" pos="-85" freq="500" file="1502.out.xml"/>
+  
+ 		
+	<tlLogic id="gneJ2" type="static" programID="a10" offset="0">
+        	<phase duration="10" state="GrrrgrrgrrrGGG"/></tlLogic>
+	<tlLogic id="gneJ2" type="static" programID="a30" offset="0">
+        	<phase duration="30" state="GrrrgrrgrrrGGG"/>			
+    	</tlLogic>
+	
+	<tlLogic id="gneJ2" type="static" programID="b10" offset="0">
+        	<phase duration="10" state="GGGGGrrgrrrgrr"/></tlLogic>
+	<tlLogic id="gneJ2" type="static" programID="b15" offset="0">
+        	<phase duration="15" state="GGGGGrrgrrrgrr"/></tlLogic> 
+	<tlLogic id="gneJ2" type="static" programID="b23" offset="0">
+        	<phase duration="23" state="GGGGGrrgrrrgrr"/></tlLogic>     
+	<tlLogic id="gneJ2" type="static" programID="b30" offset="0">
+        	<phase duration="30" state="GGGGGrrgrrrgrr"/></tlLogic>
+	<tlLogic id="gneJ2" type="static" programID="b45" offset="0">
+        	<phase duration="45" state="GGGGGrrgrrrgrr"/></tlLogic>  
+	<tlLogic id="gneJ2" type="static" programID="b60" offset="0">
+        	<phase duration="60" state="GGGGGrrgrrrgrr"/></tlLogic>
+	<tlLogic id="gneJ2" type="static" programID="b68" offset="0">
+        	<phase duration="68" state="GGGGGrrgrrrgrr"/></tlLogic>  
+	<tlLogic id="gneJ2" type="static" programID="b90" offset="0">
+        	<phase duration="90" state="GGGGGrrgrrrgrr"/>			
+    	</tlLogic> 
+
+
+	<tlLogic id="gneJ2" type="static" programID="c10" offset="0">
+        	<phase duration="10" state="grrrGGGGrrrGrr"/></tlLogic>
+	<tlLogic id="gneJ2" type="static" programID="c15" offset="0">
+        	<phase duration="15" state="grrrGGGGrrrGrr"/></tlLogic>
+	<tlLogic id="gneJ2" type="static" programID="c23" offset="0">
+        	<phase duration="23" state="grrrGGGGrrrGrr"/></tlLogic>
+	<tlLogic id="gneJ2" type="static" programID="c30" offset="0">
+        	<phase duration="30" state="grrrGGGGrrrGrr"/></tlLogic>
+	<tlLogic id="gneJ2" type="static" programID="c45" offset="0">
+        	<phase duration="45" state="grrrGGGGrrrGrr"/></tlLogic>
+	<tlLogic id="gneJ2" type="static" programID="c60" offset="0">
+        	<phase duration="60" state="grrrGGGGrrrGrr"/></tlLogic>
+	<tlLogic id="gneJ2" type="static" programID="c68" offset="0">
+        	<phase duration="68" state="grrrGGGGrrrGrr"/></tlLogic>
+	<tlLogic id="gneJ2" type="static" programID="c90" offset="0">
+        	<phase duration="90" state="grrrGGGGrrrGrr"/>		
+    	</tlLogic>
+	
+
+	<tlLogic id="gneJ2" type="static" programID="d10" offset="0">
+        	<phase duration="10" state="grrrgrrGGGGGrr"/></tlLogic>      
+	<tlLogic id="gneJ2" type="static" programID="d30" offset="0">
+        	<phase duration="30" state="grrrgrrGGGGGrr"/></tlLogic>     
+	<tlLogic id="gneJ2" type="static" programID="d60" offset="0">
+        	<phase duration="60" state="grrrgrrGGGGGrr"/></tlLogic>     
+	<tlLogic id="gneJ2" type="static" programID="d90" offset="0">
+        	<phase duration="90" state="grrrgrrGGGGGrr"/>			
+    	</tlLogic>    
+
+
+
+	<tlLogic id="gneJ1" type="static" programID="s10" offset="0">
+        	<phase duration="10" state="GGGGGrrgrrrgrr"/></tlLogic>    
+	<tlLogic id="gneJ1" type="static" programID="s30" offset="0">
+        	<phase duration="30" state="GGGGGrrgrrrgrr"/></tlLogic>    
+	<tlLogic id="gneJ1" type="static" programID="s60" offset="0">
+        	<phase duration="60" state="GGGGGrrgrrrgrr"/></tlLogic>    
+	<tlLogic id="gneJ1" type="static" programID="s90" offset="0">
+        	<phase duration="90" state="GGGGGrrgrrrgrr"/>
+	</tlLogic>  
+	
+	<tlLogic id="gneJ1" type="static" programID="e10" offset="0">
+        	<phase duration="10" state="GrrrgrrgrrrGGG"/></tlLogic>
+	<tlLogic id="gneJ1" type="static" programID="e15" offset="0">
+        	<phase duration="15" state="GrrrgrrgrrrGGG"/></tlLogic>
+	<tlLogic id="gneJ1" type="static" programID="e23" offset="0">
+        	<phase duration="23" state="GrrrgrrgrrrGGG"/></tlLogic>
+	<tlLogic id="gneJ1" type="static" programID="e30" offset="0">
+        	<phase duration="30" state="GrrrgrrgrrrGGG"/></tlLogic>
+	<tlLogic id="gneJ1" type="static" programID="e45" offset="0">
+        	<phase duration="45" state="GrrrgrrgrrrGGG"/></tlLogic>
+	<tlLogic id="gneJ1" type="static" programID="e60" offset="0">
+        	<phase duration="60" state="GrrrgrrgrrrGGG"/></tlLogic>
+	<tlLogic id="gneJ1" type="static" programID="e68" offset="0">
+        	<phase duration="68" state="GrrrgrrgrrrGGG"/></tlLogic>
+	<tlLogic id="gneJ1" type="static" programID="e90" offset="0">
+        	<phase duration="90" state="GrrrgrrgrrrGGG"/>		
+    	</tlLogic>
+	
+	<tlLogic id="gneJ1" type="static" programID="f10" offset="0">
+        	<phase duration="10" state="grrrgrrGGGGGrr"/></tlLogic>
+	<tlLogic id="gneJ1" type="static" programID="f15" offset="0">
+        	<phase duration="15" state="grrrgrrGGGGGrr"/></tlLogic>
+	<tlLogic id="gneJ1" type="static" programID="f23" offset="0">
+        	<phase duration="23" state="grrrgrrGGGGGrr"/></tlLogic>      
+	<tlLogic id="gneJ1" type="static" programID="f30" offset="0">
+        	<phase duration="30" state="grrrgrrGGGGGrr"/></tlLogic>
+	<tlLogic id="gneJ1" type="static" programID="f45" offset="0">
+        	<phase duration="45" state="grrrgrrGGGGGrr"/></tlLogic>  
+	<tlLogic id="gneJ1" type="static" programID="f60" offset="0">
+        	<phase duration="60" state="grrrgrrGGGGGrr"/></tlLogic>
+	<tlLogic id="gneJ1" type="static" programID="f68" offset="0">
+        	<phase duration="68" state="grrrgrrGGGGGrr"/></tlLogic>  
+	<tlLogic id="gneJ1" type="static" programID="f90" offset="0">
+        	<phase duration="90" state="grrrgrrGGGGGrr"/>			
+    	</tlLogic> 
+
+	<tlLogic id="gneJ1" type="static" programID="g10" offset="0">
+        	<phase duration="10" state="grrrGGGGrrrGrr"/></tlLogic>
+	<tlLogic id="gneJ1" type="static" programID="g30" offset="0">
+        	<phase duration="30" state="grrrGGGGrrrGrr"/>
+	</tlLogic>
+	
+
+
+	
+	
+ 
+</additionals>

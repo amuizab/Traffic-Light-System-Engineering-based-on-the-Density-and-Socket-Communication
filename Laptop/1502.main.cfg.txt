@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.sf.net/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="150222.net.xml"/>
+        <route-files value="15022ext.rou.xml"/>
+	<additional-files value="15022scene12persimpnew2persimp.add.xml"/>
+    </input>
+
+    <time>
+        <begin value="0"/>
+        <end value="10000"/>
+    </time>
+
+</configuration>
